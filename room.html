@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+        
+        <div class="lg:flex gap-10 justify-center item-center lg:mt-[150px]">
+            
+            <div class="border-2 border-black h-[280px] w-[375px]">
+                
+       <video id="localVideo" autoplay muted controls></video>
+            </div>
+            <div class="border-2 border-black h-[280px] w-[375px]">
+                <video id="remoteVideo" autoplay></video>
+            </div>
+            
+        </div>
+        <div class="flex justify-center mt-[20px] lg:mt-[60px] "><button onclick="window.location.href='index.html'"><img class="h-[80px] w-[80px]" src="cut.jpeg" alt=""></button></div>
+    
+        <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
