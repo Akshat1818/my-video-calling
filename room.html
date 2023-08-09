@@ -11,19 +11,16 @@
 
 <body>
 
-        
-        <div class="ml-[5px] lg:flex gap-10 justify-center item-center lg:mt-[150px]">
-            
-            <div class="border-2 border-black h-[280px] w-[375px]">
-                
-       <video id="localVideo" autoplay muted controls></video>
+        <div class="max-h-screen">
+                <div class=" flex-col justify-center items-center">
+	
+                    <video class="min-w-full 
+                   min-h-screen max-h-screen" id="remoteVideo" autoplay ></video> 
+                   <video class="mb-[20px]h-[400px] w-[400px] fixed bottom-0 right-1  " id="localVideo" autoplay muted></video>  
+               </div></div>
             </div>
-            <div class="border-2 border-black h-[280px] w-[375px]">
-                <video id="remoteVideo" autoplay></video>
-            </div>
-            
-        </div>
-        <div class="flex justify-center mt-[20px] lg:mt-[60px] "><button onclick="window.location.href='index.html'"><img class="h-[80px] w-[80px]" src="cut.jpeg" alt=""></button></div>
+            <button onclick="window.location.href='index.html'"><img
+                class="h-[80px] w-[80px] fixed top-[600px] left-[700px]" src="cut.png" alt=""></button>
     
         <script type="text/javascript" src="script.js"></script>
 </body>
